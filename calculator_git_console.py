@@ -12,3 +12,8 @@ class Calculator:
         result = self.number1 - self.number2
         print(f"{self.number1} - {self.number2} = {result}")
         return
+
+    def multiplication(self):
+        result = self.number1 * self.number2
+        print(f"{self.number1} * {self.number2} = {result}")
+        return
