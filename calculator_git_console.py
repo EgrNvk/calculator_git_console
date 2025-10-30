@@ -17,3 +17,12 @@ class Calculator:
         result = self.number1 * self.number2
         print(f"{self.number1} * {self.number2} = {result}")
         return
+
+    def division(self):
+        if self.number2 == 0:
+            print("На 0 ділити не можна")
+            return
+        else:
+            result = self.number1 / self.number2
+            print(f"{self.number1} / {self.number2} = {result}")
+            return
